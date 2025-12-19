@@ -10,3 +10,8 @@ jobs:
              echo "This is my application"
       - name: Print Good Bye
         run: echo "Done -bye!"
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ouput GitHub Context
+        run: echo "{{$github}}"
