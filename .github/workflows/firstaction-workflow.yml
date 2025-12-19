@@ -14,4 +14,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ouput GitHub Context
-        run: echo "{{$github}}"
+        run: echo "${{github}}"
